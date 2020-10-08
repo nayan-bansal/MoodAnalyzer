@@ -14,7 +14,7 @@ public void setMessage(String message) {
 	this.message = message;
 }
 
-public String moodAnalyze(String message) {
+public String moodAnalyze_Happy(String message) {
 	if(message.contains("Sad"))
 		return "SAD";
 	else
